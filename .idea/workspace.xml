@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61882f06-295b-43c5-9a3b-6b30b748c436" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AI/Evaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AI/GreedyPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AI/MinimaxAi.java" afterDir="false" />
+    <list default="true" id="61882f06-295b-43c5-9a3b-6b30b748c436" name="Changes" comment="minimax">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AI/Minimax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AI/Minimax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AI/Utility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/control/changePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/control/changePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/BoardHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/BoardHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Piece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Piece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/MainPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/MainPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/startScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/startScreen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +83,23 @@
       <option name="presentableId" value="Default" />
       <updated>1712678517207</updated>
     </task>
+    <task id="LOCAL-00001" summary="minimax">
+      <option name="closed" value="true" />
+      <created>1712738882040</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712738882040</updated>
+    </task>
+    <task id="LOCAL-00002" summary="minimax">
+      <option name="closed" value="true" />
+      <created>1712738910257</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712738910257</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +113,11 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="noAI" />
+    <MESSAGE value="minimax" />
+    <option name="LAST_COMMIT_MESSAGE" value="minimax" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -115,6 +125,15 @@
           <url>file://$PROJECT_DIR$/src/view/MainPanel.java</url>
           <line>94</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/model/Board.java</url>
+          <line>109</line>
+          <properties class="model.Board" method="canPutPiece">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -12,7 +12,8 @@ public class Minimax {
 
 
     //returns max score move
-    public static Piece solve(Board board,int depth, int player){
+    public static Piece solve(Board nboard,int depth, int player){
+        Board board = nboard;
         ArrayList<Piece> PossibleMoves = new ArrayList<>();
         PossibleMoves = BoardHelper.getPointMove(board.getBoard(),player);
         nodesExplored = 0;
